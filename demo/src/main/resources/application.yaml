@@ -1,0 +1,16 @@
+server:
+  port: 9090
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/springboot-vue?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+
+
+markerhub:
+  jwt:
+    header: Authorization
+    expire: 604800
+    secret: 12345678906h8kn9kmg5fdcv7h89km4f
